@@ -5,14 +5,19 @@
 
 - 在本项目发起一个 issue，补充信息或反馈错误。
 - Fork 该项目，进行修改，然后发起 pull request。
+- [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
 ## 目录
 
 ```
 .
 ├── LICENSE
+├── persons
+│   ├── name0.yaml
+│   └── name1.yaml
 ├── README.md
-└── persons
+└── static
+    └── template.yaml
 ```
 
 ## 数据格式
