@@ -1,0 +1,53 @@
+%YAML 1.2
+---
+# 本文件必须使用 UTF-8 编码
+
+# (required) 常用名 e.g., John Doe, Jane Doe
+name: 
+
+# (optional) 如全名、英文名、中文名，禁止使用带有污蔑意味的称谓
+# YAML key-pair (key in English)
+# e.g., {"Chinese": "张三", "English": "John Doe", "used_name": "J. Doe"}
+other_names: 
+
+# (required) e.g., 克莱登大学
+school: 
+# (required) e.g., 哲学系
+department: 
+# (required) e.g., 副教授
+title: 
+
+# 时间标示事件，格式：yyyy-mm-dd，时间点或时间范围
+# c. for circa
+# 1732–1799 or 1732–99: both years are known precisely.
+# c. 1732 – 1799: only the end year is known accurately; the start year is approximate.
+# 1732 – c. 1799: only the start year is known accurately; the end year is approximate.
+# c. 1732 – c. 1799: both years are approximate.
+
+# 主观叙事
+suspected:
+  unavailable: 
+    # e.g., 剽窃、署名权争议
+    event: 
+    # 描述，保留换行
+    description: |
+
+    # 证据，保留换行
+    proof: |
+
+
+# 必须列出证据 
+believed:
+  unavailable:
+    event: 
+    # 描述，保留换行
+    description: | 
+
+    # 证据，保留换行
+    proof: |
+      
+
+meta:
+  template_version: "1.0.0"
+  license: "CC BY-NC-SA 4.0"
+  license_full: "Attribution-NonCommercial-ShareAlike 4.0 International"
