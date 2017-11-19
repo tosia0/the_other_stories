@@ -1,0 +1,48 @@
+%YAML 1.2
+---
+# 本文件必须使用 UTF-8 编码
+
+# (required) 常用名 e.g., John Doe, Jane Doe
+name: Jafar Saniie
+
+# (optional) 如全名、英文名、中文名，禁止使用带有污蔑意味的称谓
+# YAML key-pair (key in English)
+# e.g., {"Chinese": "张三", "English": "John Doe", "used_name": "J. Doe"}
+other_names: 
+
+# (required) e.g., 克莱登大学
+school: Illinois Institite of Technology
+# college 和 department 必须至少填上一项
+# (required) e.g., 人文学院
+college: Armour College
+# (required) e.g., 哲学系
+department: Electrical and Computer Engieering
+# (required) e.g., 副教授
+title: Chair of the Department of Electrical and Computer Engineering; Professor Electrical and Computer Engineering Department
+
+# 时间标示事件，格式：yyyy-mm-dd，时间点或时间范围
+# c. for circa
+# 1732–1799 or 1732–99: both years are known precisely.
+# c. 1732 – 1799: only the end year is known accurately; the start year is approximate.
+# 1732 – c. 1799: only the start year is known accurately; the end year is approximate.
+# c. 1732 – c. 1799: both years are approximate.
+
+# 主观叙事
+suspected:
+  2017-5: 
+    # e.g., 剽窃，诬告，抢夺，压榨
+    event: Juan Lu 
+    # 描述，保留换行
+    description: | 
+        导师抢夺学生的成果反诬告学生剽窃。给学生两个学期的research学分unsatisfactory。 学生自己出学费，取消学生毕业答辩。
+        由于导师的诬告，校方对学生的academic dishonesty进行了两次听证会
+        导师学术造假，反诬告学生学术剽窃，学生在知乎上列了很多证据： https://www.zhihu.com/people/anchors-92/posts
+    proof: |
+      
+# 必须列出证据 
+believed:学生在知乎上列了很多证据： https://www.zhihu.com/people/anchors-92/posts
+
+meta:
+  template_version: "1.0.0"
+  license: "CC BY-NC-SA 4.0"
+  license_full: "Attribution-NonCommercial-ShareAlike 4.0 International"
