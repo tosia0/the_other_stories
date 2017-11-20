@@ -5,7 +5,8 @@
 
 - 在本项目发起一个 issue，补充信息或反馈错误。
 - Fork 该项目，进行修改，然后发起 pull request。
-- [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+- [Git - Book](https://git-scm.com/book/en/v2) (Multi-language docs)
+- [Git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
 ## 目录
 
@@ -29,7 +30,7 @@
 Currently we put everthing in either Chinese and English.
 
 1. The entry **must** be named as `First_Last.yaml` in English or `姓名.yaml`
-2. In avoidance of duplicated names, we recommand 1) `First_Middle_Last.yaml` (Chinese people don't have middle name, though) or 2) `First_Last__schoolname.yaml` / `姓名__学校.yaml`. Noticed that there is **one** under score to separate the first and the last names and **one** to separate the full name and the school name.
+2. In avoidance of duplicated names, we recommand 1) `First_Middle_Last.yaml` (Chinese people don't have middle name, though) or 2) `First_Last__schoolname.yaml` / `姓名__学校.yaml`. Noticed that there is **one** underscore `_` to separate the first and the last names and **two** underscores to separate the full name and the school name.
 3. The extension name `.yaml` should be kept.
 
 ### Content
