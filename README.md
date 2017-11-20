@@ -27,10 +27,11 @@
 本项目数据采用 [YAML](https://zh.wikipedia.org/wiki/YAML) 格式。
 
 ### Naming
-Currently we put everthing in either Chinese and English.
+Currenyly we put everyhing according to the naming conventions. Noticed that **Unicode** is in use by default, please maintian the name as original as possible, e.g., `John_Doe.yaml` is for some person who is known as his name in English and `张三` in Chinese. In addition, if you want to create an entry for someone is known for names in multiple languages, please use the most commmon one and add other names in the entry as auxiliary content.
 
-1. The entry **must** be named as `First_Last.yaml` in English or `姓名.yaml`
-2. In avoidance of duplicated names, we recommand 1) `First_Middle_Last.yaml` (Chinese people don't have middle name, though) or 2) `First_Last__schoolname.yaml` / `姓名__学校.yaml`. Noticed that there is **one** underscore `_` to separate the first and the last names and **two** underscores to separate the full name and the school name.
+Acceptable naming formats are
+1. `First(_Middle)_Last.yaml`, where `(_Middle)` is optional in avoidence of duplicated names; `姓名.yaml`. Noticed that captalized initial letter is required.
+2. `First(_middle)_Last(__schoolname).yaml`, where `schoolname` should be expanded as `Carleton_University`; it is put as `姓名__学校.yaml` in Chinese. Noticed that the underscore `_` is the replacement of white space ` `.
 3. The extension name `.yaml` should be kept.
 
 ### Content
