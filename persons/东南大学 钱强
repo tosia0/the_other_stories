@@ -1,0 +1,49 @@
+%YAML 1.2
+---
+# 本文件必须使用 UTF-8 编码
+
+# (required) 常用名 e.g., John Doe, Jane Doe
+name: 钱强
+
+# (optional) 如全名、英文名、中文名，禁止使用带有污蔑意味的称谓
+# YAML key-pair (key in English)
+# e.g., {"Chinese": "张三", "English": "John Doe", "used_name": "J. Doe"}
+other_names: 
+
+# (required) e.g., 克莱登大学
+school: 东南大学
+# college 和 department 必须至少填上一项
+# (required) e.g., 建筑学院
+college: 建筑学院
+# (required) e.g., 哲学系
+department: 建筑学院 
+# (required) e.g., 副教授
+title: Associate Professor of Physics & Astronomy and Adjunct Assistant Professor of Biology
+
+# 时间标示事件，格式：yyyy-mm-dd，时间点或时间范围
+# c. for circa
+# 1732–1799 or 1732–99: both years are known precisely.
+# c. 1732 – 1799: only the end year is known accurately; the start year is approximate.
+# 1732 – c. 1799: only the start year is known accurately; the end year is approximate.
+# c. 1732 – c. 1799: both years are approximate.
+
+# 主观叙事
+suspected:
+  2017-10: 
+    # e.g., 剽窃、署名权争议
+    event: 钱强，教授，之前在日本呆过，人品不端
+    # 描述，保留换行
+    description: | 
+        长期在上海联创公司当设计总监赚外快，时常不来上课。给研究生上的选修课，收结课作业让他研究生通过qq邮箱收。结果因为邮箱作业传送有问题导致最后显示为空文件夹（交作业一方均显示成功发送），于是直接给零分！
+        零分就是连交钱重修都不能修，学生拿到零分一脸懵逼，女生哭的死去活来，学院根本不会管你的，只会要求自己联系钱教授，否则因为这门选修课就不能毕业。
+        接电话直接就飙脏话，社会得很脏话比顺口溜说得还利索！直接把一个同学气的头疼躺在床上起不来，学生们为了有个成绩好话说尽、遭受谩骂还得感恩戴德！！！
+        据说某人总监当的很好，票子大笔赚，每年为了有公司实习的机会大把人要报他呵呵呵…
+    proof: |
+      
+# 必须列出证据 
+believed:来自学生匿名爆料
+
+meta:
+  template_version: "1.0.0"
+  license: "CC BY-NC-SA 4.0"
+  license_full: "Attribution-NonCommercial-ShareAlike 4.0 International"
