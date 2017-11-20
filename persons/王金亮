@@ -1,0 +1,49 @@
+%YAML 1.2
+---
+# 本文件必须使用 UTF-8 编码
+
+# (required) 常用名 e.g., John Doe, Jane Doe
+name: Saveez Saffarian
+
+# (optional) 如全名、英文名、中文名，禁止使用带有污蔑意味的称谓
+# YAML key-pair (key in English)
+# e.g., {"Chinese": "张三", "English": "John Doe", "used_name": "J. Doe"}
+other_names: 
+
+# (required) e.g., 克莱登大学
+school: 北京理工大学 
+# college 和 department 必须至少填上一项
+# (required) e.g., 人文学院
+college: 化学化工学院
+# (required) e.g., 哲学系
+department: 化学化工学院 
+# (required) e.g., 副教授
+title: Associate Professor of Physics & Astronomy and Adjunct Assistant Professor of Biology
+
+# 时间标示事件，格式：yyyy-mm-dd，时间点或时间范围
+# c. for circa
+# 1732–1799 or 1732–99: both years are known precisely.
+# c. 1732 – 1799: only the end year is known accurately; the start year is approximate.
+# 1732 – c. 1799: only the start year is known accurately; the end year is approximate.
+# c. 1732 – c. 1799: both years are approximate.
+
+# 主观叙事
+suspected:
+  2017-10: 
+    # e.g., 剽窃、署名权争议
+    event: 王金亮 青年千人
+    # 描述，保留换行
+    description: | 
+        1 学术水平： 一般偏下 文章不多，能发文章是因为组内人多，实行团队合作，大家一起做，等有文章时经常吵成一团，抢文章，完全是男生版的甄嬛传，勾心斗角。
+        2 科研经费： 北理属于较有钱的学校，加上是千人，所以经费比较充足。但是有钱不花，一分钱都不舍得花，包括不限于实验服自己买，毛细管回收等等鸡毛蒜皮的小事情，超级扣，相关事迹数不胜数。
+        3 师生关系： 这是最糟糕的，天天要求歌功颂德。师生关系极差。退学和转导师的评论每年3人。招学生之前人非常好，一进组完全不一样，总有办法压迫你。科研压力很大，天天不干导师应该干的活，恨不得24小时盯着学生。故事太多，都是泪，说不完，太多了。
+        4 学生前途： 不存在的。毕业前一秒还在压榨你，后一秒就不认识你了。没有学生说他的好话，毕业的学生没有一个从事科研行业的。
+    proof: |
+      
+# 必须列出证据 
+believed:来自学生匿名爆料
+
+meta:
+  template_version: "1.0.0"
+  license: "CC BY-NC-SA 4.0"
+  license_full: "Attribution-NonCommercial-ShareAlike 4.0 International"
