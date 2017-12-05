@@ -16,6 +16,9 @@
 ├── persons
 │   ├── name0.yaml
 │   └── name1.yaml
+├── events (now in content branch)
+│   ├── yyddmm -- event 1.tsv
+│   └── yyddmm -- event 1 entry.md
 ├── README.md
 └── static
     └── template.yaml
@@ -24,9 +27,10 @@
 
 ## 数据格式 / Data Format
 
+### Persons
 本项目数据采用 [YAML](https://zh.wikipedia.org/wiki/YAML) 格式。
 
-### Naming
+#### Naming
 Currenyly we put everyhing according to the naming conventions. Noticed that **Unicode** is in use by default, please maintian the name as original as possible, e.g., `John_Doe.yaml` is for some person who is known as his name in English and `张三` in Chinese. In addition, if you want to create an entry for someone is known for names in multiple languages, please use the most commmon one and add other names in the entry as auxiliary content.
 
 Acceptable naming formats are
@@ -34,7 +38,7 @@ Acceptable naming formats are
 2. `First(_middle)_Last(__schoolname).yaml`, where `schoolname` should be expanded as `Carleton_University` for example; it is put as `姓名__学校.yaml` in Chinese. Noticed that the underscore `_` is the replacement of white space ` `.
 3. The extension name `.yaml` should be kept.
 
-### Content
+#### Content
 (...)
 The most important part of the content is the `suspected` or `believed` sections.
 
@@ -43,6 +47,9 @@ Here we try to illustrate the difference:
 2. If there is external proof from solid source, it is **believed**. The solidd sources mainly includes 1) statement by the official, 2) news from recongized authorities, etc.
 
 If there is no content for the `suspected` section or `believed` section (but one of the two is req'ed), please simply leave it alone.
+
+### Events
+In "events" secion we try to record events with supporting files such as list of names for those who were involved. Noticed that this may arise controversy due to the insufficient information in depth. 
 
 ## 学术界 FAQ
 
