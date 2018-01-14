@@ -1,0 +1,56 @@
+%YAML 1.2
+---
+# 本文件必须使用 UTF-8 编码
+
+# (required) 常用名 e.g., John Doe, Jane Doe
+name: 
+
+# (optional) 如全名、英文名、中文名，禁止使用带有污蔑意味的称谓
+# YAML key-pair (key in English)
+# e.g., {"Chinese": "张三", "English": "John Doe", "used_name": "J. Doe"}
+other_names: 
+
+# (required) e.g., 克莱登大学
+school: 北京航空航天大学
+# (required) e.g., 哲学系
+department: 计算机学院
+# (required) e.g., 副教授
+title: 教授；国家万人计划科技创新领军人才、长江学者特聘教授，兼任中国计算机学会常务理事、虚拟现实与可视化技术专委会主任
+
+# 时间标示事件，格式：yyyy-mm-dd，时间点或时间范围
+# c. for circa
+# 1732–1799 or 1732–99: both years are known precisely.
+# c. 1732 – 1799: only the end year is known accurately; the start year is approximate.
+# 1732 – c. 1799: only the start year is known accurately; the end year is approximate.
+# c. 1732 – c. 1799: both years are approximate.
+
+# 主观叙事
+suspected:
+  unavailable: 
+    # e.g., 剽窃、署名权争议
+    event: 
+    # 描述，保留换行
+    description: |
+
+    # 证据，保留换行
+    proof: |
+
+
+# 必须列出证据 
+believed:
+  c.2006:
+    event: 性骚扰
+    # 描述，保留换行
+    description: |
+	2018年首日，华裔女学者罗茜茜实名举报了12年前作为她博士生副导师、现北京航空航天大学博士生导师、长江学者陈小武，称陈小武曾对她以及另外6名女性学生进行过性骚扰。11日晚，北京航空航天大学通过官方微博通报了处理结果：已查明，陈小武存在对学生的性骚扰行为，经研究决定，撤销其研究生院常务副院长职务，取消其研究生导师资格，撤销其教师职务，取消其教师资格。       　　北京航空航天大学称，对近期关于我校教师陈小武的实名举报和媒体的有关反映，学校本着高度负责、实事求是的态度，认真细致地开展了调查核实工作。现已查明，陈小武存在对学生的性骚扰行为。
+	北京航空航天大学表示，陈小武的行为严重违背了教师的职业道德和行为规范，造成了恶劣的社会影响。根据国家和学校相关规定，经研究决定，撤销陈小武研究生院常务副院长职务，取消其研究生导师资格，撤销其教师职务，取消其教师资格。
+	北京航空航天大学强调，“德才兼备、知行合一”是北航人的价值追求，学校对违反师德师风的行为始终坚持零容忍。学校将以此为鉴，制定相关实施细则，健全相关机制，进一步加强师德师风建设，努力办好人民满意的教育。
+    # 证据，保留换行
+    proof: |
+        北京航空航天大学官方微博2018年1月11日
+        http://www.xinhuanet.com/2018-01/12/c_1122248091.htm
+
+meta:
+  template_version: "1.0.0"
+  license: "CC BY-NC-SA 4.0"
+  license_full: "Attribution-NonCommercial-ShareAlike 4.0 International"
