@@ -13,15 +13,15 @@
 .
 ├── LICENSE
 ├── persons
-│   ├── name0.yaml
-│   └── name1.yaml
-├── events
-│   └── event1.yaml
+│   ├── name0.yaml
+│   └── name1.yaml
+├── events (now in content branch)
+│   ├── yyddmm -- event 1.tsv
+│   └── yyddmm -- event 1 entry.md
 ├── README.md
 └── static
     └── template.yaml
 ```
-## Format Requirement
 
 ## 数据格式 / Data Format
 
@@ -34,12 +34,12 @@ The naming conventions are stated as followed. Noticed that **UTF-8** is in use 
 
 合规名列举
 1. `First(_Middle)_Last.yaml`, `(_Middle)` 可选以避免重名; `姓名.yaml`。首字母需要大写。
-2. `First(_middle)_Last(__schoolname).yaml`, `schoolname` 应展开作 `Carleton_University`（例子）; 中文形式为`姓名__学校.yaml`。 下划线`_`用来替换` `。
+2. `First(_middle)_Last(__schoolname).yaml`, `schoolname` 应展开作 `Clayton_University`（例）; 中文形式为`姓名__学校.yaml`。下划线`_`用来替换空格` `。
 3. 扩展名`.yaml`应保留。
 
 Acceptable naming formats are
 1. `First(_Middle)_Last.yaml`, where `(_Middle)` is optional in avoidence of duplicated names; `姓名.yaml`. Noticed that captalized initial letter is required.
-2. `First(_middle)_Last(__schoolname).yaml`, where `schoolname` should be expanded as `Carleton_University` for example; it is put as `姓名__学校.yaml` in Chinese. Noticed that the underscore `_` is the replacement of white space ` `.
+2. `First(_middle)_Last(__schoolname).yaml`, where `schoolname` should be expanded as `Clayton_University` for example; it is put as `姓名__学校.yaml` in Chinese. Noticed that the underscore `_` is the replacement of white space ` `.
 3. The extension name `.yaml` should be kept.
 
 ### 内容 / Content
@@ -50,6 +50,15 @@ And we try to illustrate the difference:
 2. If there is external proof from solid source, it is **believed**. The solidd sources mainly includes 1) statement by the official, 2) news from recongized authorities, etc.
 
 If there is no content for the `suspected` section or `believed` section (but one of the two is req'ed), please simply leave it alone.
+
+
+### git log (recommended)
+- [+person] 增加人物词条
+- [+event] 增加事件词条
+- [++person] 更新人物词条内容
+- [++event] 更新事件词条内容
+- [fix] 修补
+- [misc] 无关内容
 
 ## 学术界 FAQ
 
